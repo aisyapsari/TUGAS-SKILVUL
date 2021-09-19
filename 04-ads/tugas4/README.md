@@ -1,11 +1,13 @@
 ```
-STORE "X" with any value
-ADD "count" by 0
-IF "X" = <70 THEN
-RESULT
-STORE "X" = >70 THEN AND "X" mod 5 equals 3
-IF "X" add 2
-SHOW RESULT
-IF ELSE "X" add 1
-SHOW RESULT
+STORE INTEGER "X"
+STORE "bilangan" without any value
+SET "bilangan" with "X" mod 5
+IF "X" > 0 AND "X"  <= 67
+THEN SHOW RESULT X
+ELSE IF "X" >= 68 AND "X" <100 AND bilangan==0
+THEN SHOW RESULT X
+ELSE IF "X" >= 68 AND "X" <100 AND bilangan==3
+THEN SHOW RESULT X+2
+ELSE IF "X" >= 68 AND "X" <100 AND bilangan==4
+THEN SHOW RESULT X+1
 ```
