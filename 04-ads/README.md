@@ -1,3 +1,4 @@
+```
 STORE "Besar_temperatur" without any value
 STORE "Tipe_temperatur" without any value
 
@@ -11,3 +12,4 @@ SET result = Besar_temperatur - 273,15
 DISPLAY result
 
 ENDIF 
+```
