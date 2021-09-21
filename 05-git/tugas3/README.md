@@ -18,7 +18,7 @@ A fast-forward merge can occur when there is a linear path from the current bran
 5. What git command changes to another branch?
 Answer: The easiest way to switch branch on Git is to use the “git checkout” command and specify the name of the branch you want to switch to.
  
-6. How do you remove modified or deleted files from the working directory? (Wibi)
+6. How do you remove modified or deleted files from the working directory?
 Answer : $> git add -u .
 $> git commit -m "removing deleted files from tracking"
 $> git push origin master
@@ -26,7 +26,7 @@ $> git push origin master
 7. What git command deletes a branch?
 Answer: To delete a branch with git branch -d <branch>
 
-8. What does the git diff command do? (Putri)
+8. What does the git diff command do? 
 Answer :
 The git diff command tells us in detail what changes occurred between two Git reference points. By default, when we run git diff without any arguments, Git will print the changes that occurred between the working tree and HEAD. The information printed by Git is actually very informative, but sometimes we miss it because we only care about adding and subtracting data in our code.
 
